@@ -1,5 +1,7 @@
 # Horizontal vs Vertical Scaling
 
+![Horizontal & Vertical Scaling](horizontal_and_vertical_scaling.png)
+
 ## What is Scaling?
 
 Scaling is the process of increasing a system's capacity to handle more traffic, users, or data.
