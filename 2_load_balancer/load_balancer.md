@@ -58,3 +58,11 @@ Request goes to the server with the least active connections.
 - Efficient resource usage
 
 ![Least connections Algorithm](least-connection.png)
+
+### 2. Ip Hash
+
+The clients Ip address determines the server
+
+- Good for session persistence
+
+![Ip hashing Algorithm](ip-hash.png)
