@@ -59,7 +59,15 @@ Request goes to the server with the least active connections.
 
 ![Least connections Algorithm](least-connection.png)
 
-### 2. Ip Hash
+### 3. Least Response Time
+
+routes traffic to the server that has the lowest combination of active connections and fastest processing speed.
+
+- Least Response Time algorithm is best suited for environments with unpredictable workloads, mixed server capabilities, and applications where low latency is critical
+
+![Least connections Algorithm](least_response_time.png)
+
+### 4. Ip Hash
 
 The clients Ip address determines the server
 
